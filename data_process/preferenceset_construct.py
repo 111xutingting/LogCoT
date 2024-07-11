@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 @Time ： 2024/7/11 15:09
-@File ：Preference Dataset_construct.py
+@File ：Preferenceset_construct.py
 @IDE ：PyCharm
 """
 
