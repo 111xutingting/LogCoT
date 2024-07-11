@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 @Time ： 2024/7/11 15:27
-@Auth ： daxuanjie
-@File ：dpo_data_trans.py
+@File ：Preference Dataset_data_trans.py
 @IDE ：PyCharm
 """
 import json
