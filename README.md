@@ -1,13 +1,13 @@
 # LogCoT:日志故障检测分类
 ## 1. 数据构造在data_process中，包括sft数据处理，偏好数据构造等。
-### a. data_process中首先进行sft数据格式的转换，可见sft_data_pre.py 然后进行sft的训练，可见根目录的run_sft.sh
+### * data_process中首先进行sft数据格式的转换，可见sft_data_pre.py 然后进行sft的训练，可见根目录的run_sft.sh
 偏好数据构造：
-### b. 使用sft后的模型进行推理得到推理结果，这里使用三个，见dpo_construct.py, 然后对其排序见rank.py,最后根据排序结果生成偏好数据见dpo_data_trans.py
+### * 使用sft后的模型进行推理得到推理结果，这里使用三个，见dpo_construct.py, 然后对其排序见rank.py,最后根据排序结果生成偏好数据见dpo_data_trans.py
 
 ## 2. 数据处理后,训练框架使用llama factory,详细介绍及用法如下：
-### a. 运行run_sft.sh进行sft训练，得到模型
-### b. 使用run_orpo.sh进行orpo训练，要进行dpo等训练修改其中的stage即可，得到二次训练的模型。
-### c. 使用export.sh可导出训练后的模型，可对其进行部署推理。
+### * 运行run_sft.sh进行sft训练，得到模型
+### * 使用run_orpo.sh进行orpo训练，要进行dpo等训练修改其中的stage即可，得到二次训练的模型。
+### * 使用export.sh可导出训练后的模型，可对其进行部署推理。
 
 
 
