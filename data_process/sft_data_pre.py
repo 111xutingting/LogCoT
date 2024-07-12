@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 @Time ： 2024/5/20 15:54
-@Auth ： daxuanjie
 @File ：sft_data_pre.py
 @IDE ：PyCharm
 """
