@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 @Time ： 2024/7/11 15:16
-@Auth ： fangsongtao
 @File ：rank.py
 @IDE ：PyCharm
 """
